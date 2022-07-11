@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
         - name: worker
-          image: stephengrider/multi-worker
+          image: dita/multi-worker-k8s
           env:
             - name: REDIS_HOST
               value: redis-cluster-ip-service
             - name: REDIS_PORT
-              value: '6379'
+              value: "6379"

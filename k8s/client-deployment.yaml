@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: client
-          image: dita/multi-client-k8s
+          image: 270319883748/multi-client-k8s
           ports:
             - containerPort: 3000

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: worker
-          image: dita/multi-worker-k8s
+          image: 270319883748/multi-worker-k8s
           env:
             - name: REDIS_HOST
               value: redis-cluster-ip-service
